@@ -1,0 +1,123 @@
+$color_orange: #ff6e3a
+
+*
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, sans-serif;
+
+nav.navbar
+  transition: 0.5s
+  .navbar-brand
+    &:hover
+      cursor: pointer
+  
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+margin:0
+  background-color: transparent
+  a
+    color: white
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+  .navbar-brand
+    &:hover
+      cursor: pointer
+    
+
+header.jumbotron
+  text-align: center
+  background-image: url(../img/topbg.jfif)
+  background-size: cover
+  background-attachment: fixed
+  background-position: center bottom
+  margin-bottom: 0px
+  .container
+    color: white
+    padding: 200px 0px
+  hr
+    max-width: 50px
+    border: none
+    height: 5px
+    background-color: $color_orange
+  h1
+    color: white
+    letter-spacing: 10px
+    font-family: Crimson Text, serif
+    font-weight: normal
+  h4
+    color: rgba(white,0.8)
+    font-weight: normal
+    
+section
+  padding: 50px 0px
+    
+section#section_ask
+  background-color: $color_orange
+  .col-sm-6.img
+    background-image: url(../img/room.png)
+    height: 300px
+    mix-blend-mode: multiply
+    background-repeat: no-repeat   
+  h2
+    margin-top: 100px
+    
+ 
+section#section_about
+  img
+    width: 100%
+    height: 100%
+  .img_wrap
+    height: 200px
+    overflow: hidden
+    margin-top: 20px
+    
+section#section_story
+  background-color: #222
+  color: white
+  padding: 0
+  .col-sm-5
+    background-image: url(../img/pic04.jpg)
+    overflow: hidden
+    background-size: 120% auto
+    height: 350px 
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+  .col-sm-12.features
+    margin-top: 30px
+    margin-bottom: 30px
+    
+section#section_future
+  img
+    width: 100%
+    padding-top: 20px
+  i
+    font-size: 30px
+    
+footer.jumbotron
+  text-align: center
+  background-image: url(../img/footerbg.jpeg)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  position: relative
+  input
+    background-color: transparent
+    max-width: 300px
+    margin-left: auto
+    margin-right: auto
+  .container
+    color: white
+    padding: 60px 0px
+  hr
+    max-width: 50px
+    border: none
+    height: 5px
+    background-color: $color_orange
+  .copyright
+      height: 40px
+      width: 100%
+      background-color: #222
+      color: white
+      padding: 5px 0px
+      position: absolute
+      bottom: 0
