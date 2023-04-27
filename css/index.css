@@ -35,7 +35,8 @@ header.jumbotron {
   text-align: center;
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url(../img/topbg03.jpeg);
   /* background-image: url(../img/topbg03.jpeg); */
-  /* background-size: cover; */
+  background-size: cover;
+  /* background-size: contain; */
   background-attachment: fixed;
   background-position: center bottom;
   margin-bottom: 0px;
